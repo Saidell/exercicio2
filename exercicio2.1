@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<title>Título qualquer</title>
+<style>
+h1{
+text-align: center;
+}
+</style>
+<h1>Prova de Conhecimentos Gerais</h1>
+<p>Responda todas as questões, utilizie rascunhos em papel pra realizar os cálculos. Os rascunhos serão recolhidos pela professora após a quarentena.
+</head>
+<body>
+
+<form action=/action_page.php>
+
+<fieldset>
+<legend>Informações do aluno</legend>
+    <div>
+    <input type="text" name="name" id="name" placeholder="Digite o seu nome" required><br><br>
+    <input type="number" name="group" id="group" placeholder="Nº de pessoas no grupo" required><br><br>
+    <input type="email" name="email" id="email" placeholder="Digite o seu email" required><br><br>
+    <label for="date">Data de nascimento</label><br>
+    <input type="date" name="date" id="date" placeholder="Digite o seu nome" required><br><br>
+    <label for="password">Digite uma senha para acessar os dados da pesquisa posteriormente:</label><br>
+    <input type="password" name="password" id="password" placeholder="Digite uma senha" required>
+    <div>
+</fieldset>
+
+<fieldset>
+<legend>Matemática</legend>
+    <div>
+    <label for="conta1">3 + 3 =</label>
+    <input type="number" name="conta1" id="conta1" required><br><br>
+    <label for="conta2">10 / 3 =</label>
+    <input type="number" name="conta2" id="conta2" required><br><br>
+    <label for="conta3">5 * 2 =</label>
+    <input type="number" name="conta3" id="conta3" required><br><br>
+    <label for="difficult">Essa tarefa foi difícil?</label>
+    <input type="range" id="difficult" name="difficult" required>
+    </div>
+</fieldset>
+
+<fieldset>
+<legend>Opinião quanto a utilização</legend>
+    <img src="https://fundacaotelefonicavivo.org.br/wp-content/webp-express/webp-images/uploads/2021/05/lingua-portuguesa-1200px-materia.jpg.webp?x53362" alt="portugues" style="width:400px;height:200px;"><br>
+    <label for="question1">Na frase: "Eu sou bonito" o sujeito é</label><br>
+    <input type="radio" id="question1" name="question1"  value="Brad Pitt">
+    <label for="brad_pitt">Brad Pitt</label><br>
+    <input type="radio" id="question1" name="question1"  value="João da padaria">
+    <label for="joao_da_padaria">João da padaria</label><br>
+    <input type="radio" id="question1" name="question1"  value="Você mesmo">
+    <label for="voce_mesmo">Você mesmo</label><br>
+    <input type="radio" id="question1" name="question1"  value="Meus pais">
+    <label for="meus_pais">Meus pais</label><br>
+    <input type="radio" id="question1" name="question1"  value="Eu">
+    <label for="eu">Eu</label><br><br>
+
+    <label for="question2">Complete a frase:"Filho de peixe, peixinho___"</label><br>
+    <input type="checkbox" id="question2" name="question2" value="é">
+    <label for="e">é</label><br>
+    <input type="checkbox" id="question2" name="question2" value="tem">
+    <label for="tem">tem</label><br>
+    <input type="checkbox" id="question2" name="question2" value="verde">
+    <label for="verde">verde</label><br>
+    <input type="checkbox" id="question2" name="question2" value="bonito">
+    <label for="bonito">bonito</label><br>
+    <input type="checkbox" id="question2" name="question2" value="maria">
+    <label for="maria">maria</label><br>
+</fieldset>
+
+<fieldset>
+<legend>Dê uma nota para sua professora:</legend>
+    <label for="teachergrade">Sua professora explica bem a matéria?</label><br>
+    <input type="range" id="teachergrade" name="teachergrade" required>
+</fieldset>
+
+<fieldset>  
+<legend>Opiniões</legend>
+    <label for="opinion">Digite a sua opinião sobre a disciplina</label><br>
+    <textarea name="opinion" rows="8" cols="110"></textarea><br>
+</fieldset>
+<br><br><button type="input">Gravar respostas</button>
+</form>
+</body>
+</html>
